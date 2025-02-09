@@ -15,6 +15,7 @@ A brief description of the contents within each folder is provided below.
 - **MH_covariate.xlsx** This Excel file contains the Mascarene High (MH) indices utilized in this study, including the longitude and latitude of its center, as well as its strength.
 
 ### MH_Adult
+This folder includes the R and JAGS code for estimating the effects of the Mascarene High on adult wandering albatrosses using Bayesian Multi-state-capture-mark-recapture model (MSCMR).
 - **ENV_cov.xlsx** This dataset contains the Mascarene High (MH) covariates used in this study, including: (1) mh_lat: Latitude of the Mascarene High center; (2) mh_lon: Longitude of the Mascarene High center; (3) mh_strength: Strength of the Mascarene High.
 - **202401_WA.RData** This dataset comprises the life-history records of wandering albatrosses used in this study.
   #### Survival
@@ -26,14 +27,23 @@ A brief description of the contents within each folder is provided below.
   #### Vital_rate_timeseries
   This folder contains the R code for running the JAGS model to estimate the vital rates time series of adult wandering albatrosses. Running the code requires life-history data 202401_WA.RData.
   
-- **Adult_MH_vital_plot.m** This code processes the posterior_adult_ENV.mat output from the JAGS model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 1 presented in the main text.
+- **Adult_MH_vital_plot.m** This code processes the posterior_adult_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 1 presented in the main text.
 - **ciplot.m** Function to fill color in confidence intervals.
 - **invlogit.m** Function to transform data from the natural scale to the logit scale.
 - **logit.m** Function to convert data to the logit scale.
-- **Adult_vital_1980_2018.mat** This file contains the temporal variation in survival, breeding probability, and breeding success probability of adult wandering albatrosses from 1980 to 2018, as estimated by the JAGS model.
+- **Adult_vital_1980_2018.mat** This file contains the temporal variation in survival, breeding probability, and breeding success probability of adult wandering albatrosses from 1980 to 2018, as estimated by the MSCMR model.
 
   
 ### MH_juvenile
+This folder includes the R and Nimble code for estimating the effects of the Mascarene High on juvenile wandering albatrosses using Bayesian MSCMR.
+#### scripts_to_run_the_model 
+This folder contains the R and Nimble code for running the MSCMR to assess the effects of Mascarene High variability on the vital rates of juvenile wandering albatrosses.
+
+- **Juvenile_MH_vital_plot.m** This code processes the posterior_juvenile_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 1 presented in the main text.
+- **ciplot.m** Function to fill color in confidence intervals.
+- **invlogit.m** Function to transform data from the natural scale to the logit scale.
+- **logit.m** Function to convert data to the logit scale.
+- **Juvenile_vital_1980_2018.mat** This file contains the temporal variation in survival, breeding probability, and first-time breeding success probability of juvenile wandering albatrosses from 1980 to 2018 estimated from MSCMR models.
 
 ### Anomaly_composite_analysis
 This folder contains the code for conducting anomaly composite analysis, which is used to explore the potential mechanisms through which variability in the Mascarene High influences the life-history traits of wandering albatrosses.
