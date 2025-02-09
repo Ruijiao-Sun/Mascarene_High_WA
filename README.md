@@ -1,5 +1,6 @@
 # Subtropical anticyclone impacts life-history traits of a marine top predator
 Ruijiao Sun, Etienne Rouby, Henri Weimerskirch, Christophe Barbraud, Karine Delord, Caroline C. Ummenhofer, Stéphanie Jenouvrier
+
 Please contact Ruijiao Sun (ruijiaos@ucsb.edu) for suggestions, comments, improvements, etc.
 
 ## Overview
