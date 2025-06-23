@@ -1,12 +1,12 @@
 # Subtropical anticyclone impacts life-history traits of a marine top predator
-Ruijiao Sun, Etienne Rouby, Henri Weimerskirch, Christophe Barbraud, Karine Delord, Caroline C. Ummenhofer, Stéphanie Jenouvrier
+Ruijiao Sun, Etienne Rouby, Christophe Barbraud, Henri Weimerskirch, Karine Delord, Kristen Krumhardt, Caroline C. Ummenhofer, Stéphanie Jenouvrier
 
 Please contact Ruijiao Sun (ruijiaos@ucsb.edu) for suggestions, comments, improvements, etc.
 
 ## Overview
 This repository contains scripts and data to recreate the main results and figures of this study.
 
-Please note that climate data are very large and therefore not included in this repository. However, all the monthly reanalyzed sea surface temperature, sea level pressure, and surface wind data used in this study are publicly available and can be downloaded from the ECMWF Reanalysis v5 (ERA5) https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5. Primary production, measured as the vertical integral of total carbon fixation between 0 and 100 m depth, can be extracted from the Japanese 55-year Reanalysis (JRA-55) https://rda.ucar.edu/datasets/d628001/.
+Please note that climate data are very large and therefore not included in this repository. However, all the monthly reanalyzed sea surface temperature, sea level pressure, and surface wind data used in this study are publicly available and can be downloaded from the ECMWF Reanalysis v5 (ERA5) https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5. Net primary production, measured as the vertical integral of total carbon fixation between 0 and 100 m depth, can be extracted from https://www.wdc-climate.de/ui/cmip6?input=CMIP6.OMIP.NCAR.CESM2.omip2.
 
 ## Folder
 A brief description of the contents within each folder is provided below.
