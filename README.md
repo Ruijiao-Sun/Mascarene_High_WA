@@ -1,5 +1,5 @@
-# Subtropical anticyclones shape life-history traits of a wind-reliant marine top predator
-Ruijiao Sun, Etienne Rouby, Christophe Barbraud, Henri Weimerskirch, Karine Delord, Kristen Krumhardt, Caroline C. Ummenhofer, Stéphanie Jenouvrier
+# Mascarene High variability shapes the demography of a wind-reliant marine top predator
+Ruijiao Sun, Etienne Rouby, Christophe Barbraud, Henri Weimerskirch, Karine Delord, Kristen Krumhardt, Francesco Ventura, Caroline C. Ummenhofer, Stéphanie Jenouvrier
 
 Please contact Ruijiao Sun (ruijiaos@ucsb.edu) for suggestions, comments, improvements, etc.
 
@@ -28,7 +28,7 @@ This folder includes the R and JAGS code for estimating the effects of the Masca
   #### Vital_rate_timeseries
   This folder contains the R code for running the JAGS model to estimate the vital rates time series of adult wandering albatrosses. Running the code requires life-history data 202401_WA.RData.
   
-- **Adult_MH_vital_plot.m** This code processes the posterior_adult_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 1 presented in the main text.
+- **Adult_MH_vital_plot.m** This code processes the posterior_adult_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 2 presented in the main text.
 - **ciplot.m** Function to fill color in confidence intervals.
 - **invlogit.m** Function to transform data from the natural scale to the logit scale.
 - **logit.m** Function to convert data to the logit scale.
@@ -40,7 +40,7 @@ This folder includes the R and Nimble code for estimating the effects of the Mas
 #### scripts_to_run_the_model 
 This folder contains the R and Nimble code for running the MSCMR to assess the effects of Mascarene High variability on the vital rates of juvenile wandering albatrosses.
 
-- **Juvenile_MH_vital_plot.m** This code processes the posterior_juvenile_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 1 presented in the main text.
+- **Juvenile_MH_vital_plot.m** This code processes the posterior_juvenile_ENV.mat output from the MSCMR model, which estimates the effects of the Mascarene High on vital rates, to generate Figure 2 presented in the main text.
 - **ciplot.m** Function to fill color in confidence intervals.
 - **invlogit.m** Function to transform data from the natural scale to the logit scale.
 - **logit.m** Function to convert data to the logit scale.
@@ -50,4 +50,4 @@ This folder contains the R and Nimble code for running the MSCMR to assess the e
 This folder contains the code for conducting anomaly composite analysis, which is used to explore the potential mechanisms through which variability in the Mascarene High influences the life-history traits of wandering albatrosses.
 - **customecolormap.m** Code to generate customized color map.
 - **Adult_vital_1980_2018.mat** This file contains the temporal variation in survival, breeding probability, and breeding success probability of adult wandering albatrosses from 1980 to 2018, as estimated by the JAGS model.
-- **anomaly_composite_map_wind.m** This code conducts composite anomaly analysis for sea level pressure and wind conditions, generating Figure 2 as presented in the main text.
+- **anomaly_composite_map_wind.m** This code conducts composite anomaly analysis for sea level pressure and wind conditions, generating Figure 3 as presented in the main text.
