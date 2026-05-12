@@ -8,7 +8,7 @@ for i=1:nrow
     high_randlist(i,:) = randi([1 39],1,10) ;
 end
 %%
-load("Adult_vital_1980_2018.mat"); %load adult time series 1965-2020
+load("Adult_vital_1980_2018.mat"); %load adult time series 
  Ms_mean = invlogit(logit(M_s_mean) + M_s_epsilon(16:54));
 %%
 uwind = ncread('ERA5_1959_2022_wind_t.nc','u',[1 1 1 1],[Inf Inf 1 Inf]);
