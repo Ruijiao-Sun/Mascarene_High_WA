@@ -1,7 +1,7 @@
 # Mascarene High variability shapes the demography of a wind-reliant marine top predator
 Ruijiao Sun, Etienne Rouby, Christophe Barbraud, Henri Weimerskirch, Karine Delord, Kristen Krumhardt, Francesco Ventura, Caroline C. Ummenhofer, Stéphanie Jenouvrier
 
-Please contact Ruijiao Sun (ruijiaos@ucsb.edu) for suggestions, comments, improvements, etc.
+**Contact:** Ruijiao Sun (ruijiaos@ucsb.edu)
 
 ## Overview
 This repository contains scripts and data to recreate the main results and figures of this study.
@@ -51,3 +51,15 @@ This folder contains the code for conducting anomaly composite analysis, which i
 - **customecolormap.m** Code to generate customized color map.
 - **Adult_vital_1980_2018.mat** This file contains the temporal variation in survival, breeding probability, and breeding success probability of adult wandering albatrosses from 1980 to 2018, as estimated by the JAGS model.
 - **anomaly_composite_map_wind.m** This code conducts composite anomaly analysis for sea level pressure and wind conditions, generating Figure 3 as presented in the main text.
+
+### foraging_trip.csv
+This file contains summarized foraging-trip data from incubating adult wandering albatross breeding at Crozet Archipelago. The dataset was used to evaluate how variability in the Mascarene High influences the wind conditions experienced by foraging individuals.
+Each row represents a single foraging trip and includes:
+- an anonymized trip ID,
+- mean wind speed experienced during the trip,
+- maximum distance from the colony,
+- number of tracking locations,
+- trip duration,
+- year and month of deployment,
+- concurrent Mascarene High indices (strength, latitude, and longitude).
+
